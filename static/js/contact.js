@@ -17,12 +17,11 @@
                 },
                 function(data) {
                     document.getElementById('message').innerHTML = data;
-                    $('#message').slideDown('slow');
-                    $('#cform img.contact-loader').fadeOut('slow', function() {
-                        $(this).remove()
-                    });
                     $('#submit').removeAttr('disabled');
-                    if (data.success != null) $('#cform').slideUp('slow');
+                    console.log(data.success)
+                    if (data.success != null){
+                      alert('表单提交成功！');
+                    };
                 }
             );
 
