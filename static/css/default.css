@@ -13,7 +13,7 @@
 #topnav .navbar-toggle.open span:hover,
 .service-wrapper:hover .icon,
 .watch-video a .play-icon-circle {
-    background-color: #009e7f !important;
+    background-color: #3b82f6 !important;
 }
 
 .text-primary,
@@ -35,7 +35,7 @@
 #topnav .has-submenu.active a,
 .blog-post .content .title:hover,
 #success_page h3 {
-    color: #009e7f !important;
+    color: #3b82f6 !important;
 }
 
 .btn-primary,
@@ -52,7 +52,7 @@
 .custom-control-input:focus ~ .custom-control-label::before,
 .form-control:focus,
 .social-icon li a:hover {
-    border-color: #009e7f !important;
+    border-color: #3b82f6 !important;
 }
 
 .btn-primary:hover, 
