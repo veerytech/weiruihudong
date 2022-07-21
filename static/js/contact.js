@@ -12,6 +12,7 @@
             $.post(action, {
                     name: $('#name').val(),
                     email: $('#email').val(),
+                    phone: $('#phone').val(),
                     comments: $('#comments').val(),
                 },
                 function(data) {

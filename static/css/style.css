@@ -24,7 +24,7 @@
  *     13.  Contact              *
  *     14.  Footer               *
  ================================*/
-@import url("4f44e234fe5b4808b88986f28cb5b061.css");
+@import url("font.css");
 body {
   font-family: "Nunito", sans-serif;
   overflow-x: hidden !important;
@@ -1349,7 +1349,7 @@ button:not(:disabled) {
 }
 
 .social-icon li a:hover .fea-social {
-  fill: #006b56;
+  fill: #3b82f6;
 }
 
 .social-icon.social li a {
@@ -1606,10 +1606,19 @@ button:not(:disabled) {
 #topnav.nav-sticky .buy-button .login-btn-light {
   display: none;
 }
-
-#topnav.nav-sticky .logo {
-  color: #3c4858;
+#topnav img.logo-d {
+  display: none;
 }
+#topnav img.logo-l {
+  display: inline;
+}
+#topnav.nav-sticky img.logo-l {
+  display: none;
+}
+#topnav.nav-sticky img.logo-d {
+  display: inline;
+}
+
 
 #topnav.nav-sticky .navigation-menu.nav-light > li > a {
   color: #3c4858;
@@ -1758,7 +1767,7 @@ button:not(:disabled) {
 }
 
 .bg-half-260 {
-  padding: 260px 0;
+  padding: 120px 0 200px 0;
   background-size: cover;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -1990,8 +1999,6 @@ button:not(:disabled) {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  height: 45px;
-  width: 45px;
   line-height: 45px;
   margin: 0 auto;
 }
@@ -2254,7 +2261,7 @@ footer .footer-list li a {
 }
 
 footer .footer-list li a:hover {
-  color: rgba(0, 158, 127, 0.7);
+  color: #3b82f699;
 }
 
 footer .footer-list li:last-child {
