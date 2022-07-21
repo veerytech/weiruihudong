@@ -22,7 +22,7 @@
                         $(this).remove()
                     });
                     $('#submit').removeAttr('disabled');
-                    if (data.match('success') != null) $('#cform').slideUp('slow');
+                    if (data.success != null) $('#cform').slideUp('slow');
                 }
             );
 
